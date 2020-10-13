@@ -1,0 +1,19 @@
+{
+  "name": "blog-poc",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "prettier": "prettier --write ./**/*.vue"
+  },
+  "dependencies": {
+    "@nuxt/components": "^1.1.0",
+    "@nuxt/content": "^1.10.0",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/svg": "^0.1.12",
+    "prettier": "2.1.2"
+  }
+}
