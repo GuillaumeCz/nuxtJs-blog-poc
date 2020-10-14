@@ -14,16 +14,8 @@ export default {
     vueI18n: {
       fallbackLocale: 'fr',
       messages: {
-        en: {
-          welcome: 'Welcome',
-          readMore: 'Read more',
-          company: 'Company',
-        },
-        fr: {
-          welcome: 'Bienvenue',
-          readMore: 'Lire la suite',
-          company: 'L\'entreprise'
-        }
+        en: require('./locales/en.json'),
+        fr: require('./locales/fr.json'),
       }
     }
   }
