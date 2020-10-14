@@ -8,4 +8,23 @@ export default {
     "~/assets/css/article.css",
     "~/assets/css/index-page.css",
   ],
+  i18n: {
+    locales: ['en', 'fr'],
+    defaultLocale: 'fr',
+    vueI18n: {
+      fallbackLocale: 'fr',
+      messages: {
+        en: {
+          welcome: 'Welcome',
+          readMore: 'Read more',
+          company: 'Company',
+        },
+        fr: {
+          welcome: 'Bienvenue',
+          readMore: 'Lire la suite',
+          company: 'L\'entreprise'
+        }
+      }
+    }
+  }
 };

@@ -1,9 +1,10 @@
 <template>
   <main class="maincolumn">
     <div id="blogindex">
+      <h1>{{ $t('welcome')}}</h1>
       <div v-for="article of articles" :key="article.slug">
         <NuxtLink
-          :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+          :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })"
           class="blogindex-article"
         >
           <div>
@@ -14,7 +15,7 @@
               {{ article.title }}
             </p>
             <p class="blogindex-article-readmore blogindex-article-text">
-              Read More
+              {{ $t('readMore') }}
             </p>
           </div>
         </NuxtLink>

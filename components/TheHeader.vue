@@ -41,7 +41,7 @@
           class="bar-deco bar-deco-hover header-desktop-right-category header-desktop-right-text"
           href="https://sogilis.fr/vision.html"
         >
-          L'entreprise
+          {{ $t('company') }}
         </a>
         <a
           class="bar-deco bar-deco-hover header-desktop-right-category header-desktop-right-text"
@@ -49,6 +49,18 @@
         >
           Contact
         </a>
+        <NuxtLink
+            :to="switchLocalePath( 'en')"
+            class="bar-deco bar-deco-hover header-desktop-right-category header-desktop-right-text"
+        >
+          En
+        </NuxtLink>
+        <NuxtLink
+            :to="switchLocalePath('fr')"
+            class="bar-deco bar-deco-hover header-desktop-right-category header-desktop-right-text"
+        >
+          Fr
+        </NuxtLink>
       </div>
     </nav>
   </header>
