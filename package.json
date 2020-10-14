@@ -10,7 +10,8 @@
   "dependencies": {
     "@nuxt/components": "^1.1.0",
     "@nuxt/content": "^1.10.0",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.15.2"
   },
   "devDependencies": {
     "@nuxtjs/svg": "^0.1.12",

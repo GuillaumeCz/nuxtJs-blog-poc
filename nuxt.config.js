@@ -1,7 +1,7 @@
 export default {
   components: true,
   buildModules: ["@nuxtjs/svg"],
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "nuxt-i18n"],
   css: [
     "~/assets/css/shared.css",
     "~/assets/css/header.css",
